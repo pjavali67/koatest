@@ -1,11 +1,14 @@
-import PdfViewer from "./PdfViever";
+//import PdfViewer from "./PdfViever";
+
+import PdfOther from "./PdfOther";
 
 export default function Home() {
   // return
   return (
     <>
-      <PdfViewer />;<h1>hello</h1>
-      <p>world</p>
+      <PdfOther src="/one.pdf" />
+      {/* <PdfViewer />;<h1>hello</h1>
+      <p>world</p> */}
     </>
   );
 }
