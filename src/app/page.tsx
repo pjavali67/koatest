@@ -1,5 +1,10 @@
 import PdfViewer from "./PdfViever";
 
 export default function Home() {
-  return <PdfViewer />;
+  // return
+  return (
+    <>
+      <PdfViewer />;
+    </>
+  );
 }
