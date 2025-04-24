@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+#viewerContainer > #viewer > .page > .canvasWrapper > canvas {
+  filter: grayscale(100%);
+  filter: invert(100%);
+}
