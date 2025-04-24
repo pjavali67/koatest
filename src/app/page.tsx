@@ -1,6 +1,9 @@
-//import PdfViewer from "./PdfViever";
+"use client";
+import dynamic from "next/dynamic";
 
-import PdfOther from "./PdfOther";
+const PdfOther = dynamic(() => import("./PdfOther"), {
+  ssr: false,
+});
 
 export default function Home() {
   // return
