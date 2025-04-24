@@ -4,7 +4,8 @@ export default function Home() {
   // return
   return (
     <>
-      <PdfViewer />;
+      <PdfViewer />;<h1>hello</h1>
+      <p>world</p>
     </>
   );
 }
